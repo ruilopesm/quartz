@@ -10,8 +10,8 @@ li.section-li {
   margin-bottom: 1em;
 
   & > .section {
-    display: grid;
-    grid-template-columns: fit-content(8em) 3fr 1fr;
+    display: flex;
+    justify-content: space-between;
 
     @media all and ($mobile) {
       & > .tags {
